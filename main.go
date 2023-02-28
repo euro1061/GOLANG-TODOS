@@ -27,7 +27,7 @@ func (l SqlLogger) Trace(ctx context.Context, begin time.Time, fc func() (sql st
 func main() {
 	initConfig()
 	db := initDB()
-	// db.AutoMigrate(&repository.Todo{})
+	db.AutoMigrate(&repository.Todo{})
 	app := fiber.New()
 
 	todoRepo := repository.NewTodoRepositoryDB(db)
