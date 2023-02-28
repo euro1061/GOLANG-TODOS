@@ -1,0 +1,11 @@
+app:
+  port: 8000
+
+db:
+  host: "localhost"
+  user: "postgres"
+  password: "goapi"
+  dbname: "postgres"
+  port: 5432
+  sslmode: "disable"
+  timezone: "Asia/Bangkok"
