@@ -4,8 +4,10 @@
 
 Run this project
 
-``` go run . ```
+```sh
+go run . ```
 
 Compose this project with docker
 
-``` docker compose up -d ```
+```sh
+docker compose up -d ```
