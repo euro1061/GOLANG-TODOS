@@ -1,5 +1,7 @@
 # GOLANG-TODOS
- 
+
+ฝึกเขียน REST API สำหรับทำ CRUD - CREAT, READ, UPDATE, DELETE โดยใช้ภาษา Golang และวางระบบแบบ Hexagonal Architecture
+
 ## Getting Started
 
 Run this project
